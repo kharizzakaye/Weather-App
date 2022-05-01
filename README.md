@@ -1,6 +1,6 @@
 # Weather-App-2
 
-A weather app built with HTML, CSS, and JavaScript using OpenWeatherMap API
+A fully functional weather app built with HTML, CSS, and JavaScript using OpenWeatherMap API
 
 ###Screenshots
 
