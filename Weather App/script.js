@@ -1,5 +1,5 @@
 let weather = {
-    "apiKey": "YOUR_API_HERE",
+    "apiKey": "YOUR_API_KEY_HERE",
     fetchWeather: function(city){
         fetch(
             "https://api.openweathermap.org/data/2.5/weather?q=" 
@@ -7,8 +7,15 @@ let weather = {
             + "&units=metric&appid=" 
             + this.apiKey
         )
-        .then((response) => response.json())
-        .then((data) => this.displayWeather(data)); //.then((data) => console.log(data));
+        .then((response) => {
+            if(!response.ok)
+            {
+                alert("No weather found.");
+                throw new Error("No weather found");
+            }
+            return response.json();
+        })
+        .then((data) => this.displayWeather(data));
     },
 
     displayWeather: function(data){
@@ -16,8 +23,6 @@ let weather = {
         const {icon, description} = data.weather[0];
         const {temp, humidity} = data.main;
         const {speed} = data.wind;
-
-        //console.log(name, icon, description, temp, humidity, speed)
 
         document.querySelector(".city").innerText = name;
         document.querySelector(".icon").src = "https://openweathermap.org/img/wn/" + icon + ".png";
@@ -38,7 +43,7 @@ let weather = {
 let geocode = {
     reverseGeocode: function (latitude, longitude)
     {
-        var api_key = 'YOUR_API_HERE';
+        var api_key = 'YOUR_API_KEY_HERE';
 
         var api_url = 'https://api.opencagedata.com/geocode/v1/json'
 
