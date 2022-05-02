@@ -2,8 +2,10 @@
 
 A fully functional weather app built with HTML, CSS, and JavaScript using OpenWeatherMap API
 
-###Screenshots
+### Screenshots
 
-![Screenshot 2022-05-02 021532](https://user-images.githubusercontent.com/29513236/166159126-6e7d44b0-ec2e-491a-a09f-cefa48328ff9.png)
+![Screenshot 2022-05-02 165318](https://user-images.githubusercontent.com/29513236/166209652-1d6e30f2-2f19-42c3-a1f4-f4543c2941cc.png)
 
-![Screenshot 2022-05-02 021652](https://user-images.githubusercontent.com/29513236/166159130-83561a64-01c9-4f41-a284-f307383aeb98.png)
+![Screenshot 2022-05-02 165408](https://user-images.githubusercontent.com/29513236/166209667-b17c2e68-7f05-4e66-9de7-e311419d4e11.png)
+
+![Screenshot 2022-05-02 165506](https://user-images.githubusercontent.com/29513236/166209676-a46d4288-e2e2-4f9d-b606-0f2d92d9b0c8.png)
