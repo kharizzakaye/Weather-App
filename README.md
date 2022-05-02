@@ -1,6 +1,6 @@
 # Weather-App
 
-A fully functional weather app with geolocation built with HTML, CSS, and JavaScript using OpenWeatherMap API
+A fully functional weather app with geolocation. Built with HTML, CSS, and JavaScript using OpenWeatherMap and OpenCage APIs.
 
 ### Screenshots
 
